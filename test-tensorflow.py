@@ -12,7 +12,7 @@ os.system("echo --; find / -iname 'tensorflow-test.py' 2>/dev/null")
 os.system("echo --; find /code 2>/dev/null")
 os.system("echo --; find /__file__ 2>/dev/null")
 
-import pandas as pd
+#import pandas as pd
 
 # Say hello
 hello = tf.constant('Hello, TensorWorld!')
