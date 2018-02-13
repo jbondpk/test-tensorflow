@@ -10,6 +10,7 @@ os.system("echo --; cd ..; ls -l; cat requirements.txt")
 os.system("echo --; find / -iname 'requirements.txt' 2>/dev/null")
 os.system("echo --; find / -iname 'tensorflow-test.py' 2>/dev/null")
 os.system("echo --; find /code 2>/dev/null")
+os.system("echo --; find /__file__ 2>/dev/null")
 
 import pandas as pd
 
